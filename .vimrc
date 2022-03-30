@@ -21,7 +21,10 @@ call plug#end()
 
 " Style
 syntax on
-colorscheme onedark
+try
+  colorscheme onedark
+catch
+endtry
 set number
 set splitbelow
 set splitright
