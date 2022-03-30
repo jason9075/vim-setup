@@ -19,6 +19,9 @@ Plug 'ervandew/supertab' "use <tab> ket to do auto completion
 Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
+" YouCompleteMe need utf-8
+set encoding=utf-8
+
 " Style
 syntax on
 try
