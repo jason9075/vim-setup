@@ -6,3 +6,7 @@ let g:ycm_extra_conf_vim_data = [
   \]
 let g:ycm_global_ycm_extra_conf = '~/.global_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion = 1
+
+"key bindings
+nmap <leader>g :YcmCompleter GoTo<cr>
+nmap <leader>d :YcmCompleter GoToReferences<cr>
