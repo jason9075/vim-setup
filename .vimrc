@@ -16,7 +16,8 @@ Plug 'nvie/vim-flake8' "vim python linter for show error and warning
 Plug 'ambv/black' "vim python fixer for empty lines
 Plug 'fisadev/vim-isort' "vim python import check tool
 Plug 'ervandew/supertab' "use <tab> ket to do auto completion
-Plug 'ycm-core/YouCompleteMe'
+Plug 'ycm-core/YouCompleteMe' " code auto completion
+Plug 'python-rope/ropevim'
 call plug#end()
 
 " YouCompleteMe need utf-8

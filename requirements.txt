@@ -2,3 +2,4 @@ click==8.0.4
 isort==5.10.1
 flake8==4.0.1
 black==22.1.0
+ropevim==0.8.1
