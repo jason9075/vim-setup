@@ -24,3 +24,15 @@ apt install mono-complete golang nodejs default-jdk npm
 cd ~/.vim/plugged/YouCompleteMe
 python3 install.py --all
 ```
+
+## Setup YCM python interpreter
+
+If you have different env in different project. You can create ```.ycm_extra_conf.py``` file to specify which python for use.
+
+```
+def Settings( **kwargs ):
+  return {
+    'interpreter_path': '/path/to/virtual/environment/python'
+  }
+```
+put this file in your project root dir.
