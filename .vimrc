@@ -33,6 +33,10 @@ set number
 set splitbelow
 set splitright
 set scrolloff=3
+set relativenumber
+hi CursorLineNr guifg=#af00af
+set cursorline
+set cursorlineopt=number
 
 " Search
 set hlsearch
